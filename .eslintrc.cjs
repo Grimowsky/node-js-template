@@ -22,7 +22,10 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier', 'import'],
   rules: {
     'prettier/prettier': 'error',
-    'import/extensions': 'off'
+    'import/extensions': 'off',
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    '@typescript-eslint/prefer-nullish-coalescing': "off",
+    "@typescript-eslint/no-misused-promises": "off"
   },
   settings: {
     'import/parsers': {
